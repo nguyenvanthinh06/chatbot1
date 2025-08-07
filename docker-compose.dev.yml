@@ -33,7 +33,7 @@ services:
     ports:
       - 8002:8081 # Expose ra port 8002 để truy cập
     depends_on:
-      - flash_cards_mongodb
+      - chatbot_mongodb
     restart: unless-stopped
 
 networks:
