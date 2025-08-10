@@ -41,6 +41,131 @@ Q7. Làm bài kiểm tra trong lớp học phần như thế nào?
     A7: Để vào làm bài kiểm tra các bạn làm theo các bước sau:
     •	Bước 1: Sinh viên truy cập vào lớp học. Click nội dung bài kiểm tra trên cây nội dung của Lớp học. Hệ thống sẽ hiển thị các thông tin về bài kiểm tra.
     •	Bước 2: Nhấn nút Làm bài để bắt đầu vào làm bài thi – kiểm tra.
+    •	Bước 3: Hệ thống hiển thị màn hình làm bài.
+            Trong đó:
+            (1)	Đồng hồ đếm ngược thời gian làm bài
+            (2)	Menu câu hỏi cho phép: Nhấn chọn để di chuyển câu hỏi. Màu sắc biểu thị trạng thái của câu hỏi: màu xanh là các câu đã trả lời; màu xám là câu chưa trả lời.
+            (3)	Hiển thị câu hỏi và các đáp án để thí sinh tích chọn
+            (4)	Nhấn để nộp bài làm
+    •	Bước 4: Sau khi nộp bài sẽ hiển thị chi tiết kết quả bài làm như sau gồm:
+            o	Kết quả các lần thi.
+            o	Nút Chi tiết để xem chi tiết bài làm (do người quản lý Lớp học thiết lập ẩn/ hiện)
+
+
+Q8: Làm bài tập trong lớp học phần như thế nào?
+    A8: Hệ thống cho phép sinh viên trong lớp tham gia làm bài tập nhóm trong lớp như:
+    -	Bài tập không phân nhóm: Tất cả sinh viên trong lớp đều được tham gia làm và nộp bài
+    -	Bài tập phân nhóm (một nhiệm vụ và nhiều nhiệm vụ): Sinh viên được gán trong nhóm mới được tham gia làm bài tập nhóm
+    Các thao tác thực hiện như sau:
+    -	Bước 1: Sinh viên truy cập vào lớp học. Click nội dung bài tập nhóm tương ứng trên cây nội dung của Lớp học phần.
+    -	Bước 2: Nhập thông tin bài làm
+    -	Bước 3: Bấm nút Xác nhận nộp bài để nộp bài tập
+    -	Bước 4: Hệ thống hiển thị trạng thái Bài thi đang chờ chấm
+            Sau khi Giảng viên chấm bài bài tập, sinh viên sẽ xem được kết quả của bài tập (trường hợp giảng viên thiết lập hiển thị điểm cho học viên)
+
+Q9: Tôi muốn xem kết quả học tập thì xem ở đâu?
+    A9: Hệ thống cho phép người học xem tổng quan kết quả học tập trong lớp học phần gồm các thông tin như: Ngày tham gia, tổng thời gian xem bài giảng (phút), tổng số lượt xem, lần truy cập gần nhất, điểm tổng kết.
+
+Q10: Tôi xem hết video rồi nhưng sao không được ghi nhận hoàn thành?
+    A10: Bạn phải xem đủ thời lượng video theo yêu cầu mới được ghi nhận hoàn thành. Ví dụ: Nội dung video quản trị đào tạo thiết lập điều kiện hoàn thành là 3 phút thì bạn phải xem video đó ít nhất 3 phút mới được tính là hoàn thành.
+Q11: Tại sao tôi vẫn chưa hoàn thành được lớp học phần?
+    A11: Để hoàn thành khóa học bạn cần phải tham gia học tập và hoàn thành hết các nội dung bắt buộc trong khóa học đó.
+Q12: Tôi đã nộp bài tập rồi thì có cho phép chỉnh sửa nộp lại bài không?
+    A12: Bạn được phép chỉnh sửa và nộp lại bài khi giảng viên chưa chấm điểm
+Q13: Tại sao tôi không vào làm bài thi được?
+    A13: Bạn không vào làm bài thi được có thể do hết giờ làm bài hoặc chưa đến giờ làm bài hoặc bạn đã làm hết số lần làm bài được cho phép.
+Q14: Tôi đang làm bài thi thì bị mất mạng hoặc mất điện thì có bị mất kết quả bài làm của mình không?
+    A14: Không. Hệ thống sẽ tự lưu kết quả của bạn đã làm trước đó. Khi có mạng hoặc có điện trở lại bạn có thể tiếp tục làm bài tiếp mà không bị mất kết quả đang làm trước đó.
+Q15: Tôi muốn tham gia thảo luận trong lớp học thì làm thế nào?
+    A15: Trong quá trình học, Sinh viên vào mục thảo luận tạo các câu hỏi, chủ đề thảo luận với các thành viên trong lớp học:
+    -	Bước 1: Nhấn chọn tab Thảo luận.
+    -	Bước 2: Nhấn nút Thêm thảo luận để thêm câu hỏi hoặc chủ đề cần thảo luận.
+    -	Bước 3: Nhập các mục thông tin cho thảo luận:
+        Trong đó:
+        ●	Danh mục: Chọn danh mục cần thảo luận
+        ●	Tiêu đề: Nhập nội dung tóm tắt về nội dung thảo luận.
+        ●	Nội dung: Nhập nội dung chi tiết về thảo luận.
+    Nhấn Lưu lại để hoàn tất
+    -	Bước 4: Chọn Phản hồi tại chủ đề đang có thể trả lời, phải hồi và nhấn Phản hổi để lưu lại thông tin.
+    -	Bước 5: Người phản hồi có thể Chỉnh sửa hoặc Xóa phản hồi của mình.
+
+Q16: Xem thông báo trong lớp học thì xem ở đâu?
+    A16: Để xem thông báo trong lớp học thì các bạn làm theo các bước sau:
+    -	Bước 1: Nhấn vào mục Thông báo
+    -	Bước 2: Hệ thống hiển thị các thông báo từ người quản lý Lớp học gửi (nếu có).
+    -	Bước 3: Sinh viên chọn vào dòng tiêu đề của thông báo để xem chi tiết thông báo.
+
+Q17: Tôi muốn xem lịch học trong lớp học phần thì xem ở đâu?
+    Q17: Để xem lịch học trong lớp các bạn làm theo bước sau:
+    -	Bước 1: Nhấn vào mục Lịch học
+    -	Bước 2: Hệ thống hiển thị lịch học của sinh viên (nếu được quản trị hoặc giảng viên thiết lập hiển thị lịch học)
+
+Q18: Tôi muốn biết giảng viên của lớp thì xem ở đâu?
+    A18: Để biết ai là giảng viên của lớp thì các bạn làm theo bước sau:
+    -	Bước 1: Nhấn vào mục Giảng viên
+    -	Bước 2: Hệ thống hiển thị danh sách thông tin giảng viên dạy lớp học của sinh viên
+Q19: Tôi muốn xem kết quả miễn môn thì xem ở đâu?
+A19: Để xem kết quả miễn môn bạn làm theo bước sau:
+-	Bước 1: Đăng nhập vào hệ thống
+-	Bước 2: Tại tên tài khoản  nhấn chọn menu Kết quả miễn môn
+-	Bước 3: Nhấn biểu tượng xem trực tiếp hoặc tải file miễn môn về xem
+
+Q20: Tôi muốn cập nhật lại ảnh avatar của mình thì làm thế nào?
+A20: Để cập nhật ảnh đại diện bạn làm theo bước sau:
+-	Bước 1: Đăng nhập vào hệ thống
+-	Bước 2: Tại tên tài khoản  nhấn chọn menu Thông tin tài khoản
+-	Bước 3: Tại màn thông tin tài khoản: Bạn nhấn Xoá ảnh cũ và chọn ảnh đại diện mới sau đó nhấn nút Cập nhật ảnh đại diện
+-	Bước 4: Nhấn nút Lưu lại để hoàn tất
+Q21: Tại sao tôi không đăng nhập được vào hệ thống?
+A21: Có 2 lý do chính khi không đăng nhập được:
+-	T.H1: Bạn đăng nhập tài khoản hoặc mật khẩu không chính xác, nếu quên mật khẩu bạn hãy liên hệ lại với IT để được cấp lại.
+-	T.H2: Tài khoản của bạn không tồn tại trên hệ thống thì bạn hãy liên hệ với cán bộ quản trị đào tạo để kiểm tra tài khoản trên hệ thống.
+Q22: Khóa học đã kết thúc rồi tôi có vào xem lại nội dung học được không?
+    A22: Có nhé. Cho phép học viên tham gia học khi khóa học đã kết thúc
+Q23: Tôi có thể học trên nhiều thiết bị cùng lúc không?
+    A23: Không. Khi bạn đăng nhập 1 tài khoản trên nhiều thiết bị thì thiết bị đăng nhập trước đó sẽ bị đẩy ra, chỉ duy trì đăng nhập trên 1 thiết bị
+Q24: Trường hợp đang làm bài thi trên thiết bị mobile mà có cuộc gọi đến thì có bị cảnh báo hay trừ giờ không?
+    A24: Khi đang làm bài trên điện thoại mà có cuộc gọi đến thì hệ thống vẫn chạy thời gian làm bài, không chờ bất cứ ai
+Q25: Tôi làm bài thi không đạt hoặc bận không thi được thì có được thi lại không?
+    A25: Tùy thuộc vào chính sách của bộ phận đào tạo có cho phép thi lại hoặc tổ chức cho bạn tham gia thi ở ca khác không
+Q26: Tôi muốn xem file hướng dẫn sử dụng hệ thống ở đâu
+    A26: Bạn hãy đăng nhập vào hệ thống -> tại màn hình Trang chủ nhấn Xem hướng dẫn sử dụng https://hoctructuyen.utt.edu.vn/learn/lop-hoc/chi-tiet/f998cfcc-1093-4202-900f-679e011ff58e
+Q27: Tôi muốn trao đổi, thảo luận các vấn đề trong lớp được không?
+    A27: Bạn vào lớp học mà bạn muốn thảo luận  Mở tab THẢO LUẬN. Tại đây bạn có thể thêm thảo luận bạn muốn trao đổi
+Q28: Tôi muốn xem mã sinh viên của mình thì xem ở đâu
+    A28: Bạn đăng nhập vào hệ thống  vào màn hình Thông tin tài khoản  Tại màn hình này có hiển thị thông tin tài khoản, mã sinh viên của bạn
+Q29: Thông tin tài khoản của tôi bị sai thì làm thế nào để cập nhật
+    A29: Bạn đăng nhập vào hệ thống  vào màn hình Thông tin tài khoản  Tại màn hình này bạn có thể chỉnh sửa 1 số thông tin như địa chỉ email, số điện thoại, trạm thi. Còn các thông tin khác bạn cần chỉnh sửa thì hãy liên hệ với bộ phận quản trị đào tạo.
+Q30: Tôi muốn thay đổi thông tin đăng ký trạm thi thì làm thế nào?
+    A30: Bạn đăng nhập vào hệ thống  vào màn hình Thông tin tài khoản  Tại màn hình này cho phép bạn đăng ký trạm thi nếu vẫn còn thời gian đăng ký. Nếu hết hạn đăng ký thì bạn hãy liên hệ với quản trị đào tạo để được cập nhật
+Q31: Tại sao tôi quét điểm danh không được
+    A31: Điểm danh bị lỗi do các nguyên nhân sau:
+    -	T.H1: Bạn không có trong danh lớp
+    -	T.H2: Mã điểm danh không hợp lệ
+    -	T.H3: Mã điểm danh đã hết hạn
+Q32: Tôi bận không tham gia lớp học zoom được thì làm thế nào để học bù?
+    A32: Nếu bạn bận không tham gia lớp zoom được thì có thể xem lại video ghi hình mà giáo viên đã ghi lại trong quá trình học zoom. Quản trị đào tạo sẽ upload video ghi hình đó lên lớp cho các bạn tham gia học lại.
+Q33: Tôi đã học video ghi hình rồi thì có cần tham gia buổi học trực tuyến không?
+    A33: Không
+Q34: Tôi đã nộp bài tập rồi nhưng không thấy điểm
+    A34: Bạn phải chờ giảng viên chấm điểm và công bố điểm thì bạn mới nhìn thấy điểm bài tập của bạn
+Q35: Tôi muốn upload file bài tập dạng PDF được không?
+    A35: Bạn có thể upload file bài tập đính kèm với các dạng file khác nhau: WORD, EXCEL, PPT, PDF, MP4, MOV, MP3, M4A, ZIP/RAR, JPG/PNG
+Q36: Tôi muốn upload nhiều file cho bài tập được không ?
+    A36: Không. Bài tập chỉ được upload 1 file duy nhất
+Q37: Tôi có thể xem lịch sử truy cập của mình được không?
+    A37: Có. Bạn mở lớp học muốn xem  Mở tab Tiến trình học tập  nhấn Xem lịch sử truy cập
+Q38: Tôi muốn xem chi tiết bài thi của tôi thì xem ở đâu?
+    A38: Bạn mở lớp học có bài kiểm tra muốn xem  Nhấn vào nội dung bài kiểm tra  Nhấn vào Chi tiết. Tùy vào từng bài kiểm tra mà quản trị thiết lập có cho xem lại bài làm hay không.
+Q39: Tôi có thể tua video để hoàn thành không?
+    A39: Không, hệ thống không cho phép bạn tua video. Bạn phải học đủ số phút yêu cầu mới được hoàn thành.
+Q40: Hệ thống có ghi nhớ video tôi đang học không?
+    A40: Có. Khi bạn đang học dở video sau khi mở lại hệ thống sẽ ghi nhớ số phút video bạn đã học và cho phép bạn học tiếp mà không cần phải học lại từ đầu
+
+
+
+
+
 
 
 

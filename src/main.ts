@@ -9,6 +9,13 @@ async function bootstrap() {
   app.useGlobalInterceptors(new ResponseInterceptor());
   app.useGlobalFilters(new GlobalExceptionFilter());
   app.useGlobalPipes(new ValidationPipe());
-  await app.listen(process.env.PORT ?? 3000);
+  // Enable CORS for all origins
+  app.enableCors({
+    origin: '*', // Allows requests from any origin
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Specify allowed HTTP methods
+    credentials: true, // Allow cookies to be sent with cross-origin requests
+    allowedHeaders: 'Content-Type, Authorization', // Specify allowed request headers
+  });
+  app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
