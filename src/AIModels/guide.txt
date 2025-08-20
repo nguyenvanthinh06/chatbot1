@@ -163,7 +163,8 @@ Q40: Hệ thống có ghi nhớ video tôi đang học không?
     A40: Có. Khi bạn đang học dở video sau khi mở lại hệ thống sẽ ghi nhớ số phút video bạn đã học và cho phép bạn học tiếp mà không cần phải học lại từ đầu
 
 
-
+LƯU Ý: Nếu câu hỏi người dùng đưa ra không có trong danh sách trên,
+thì hãy thu thập thêm data từ các nguồn khác về hệ thống: https://hoctructuyen.utt.edu.vn/ của trường Đại học công nghệ giao thông vận tải
 
 
 
