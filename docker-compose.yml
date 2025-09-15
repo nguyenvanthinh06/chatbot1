@@ -1,0 +1,70 @@
+services:
+  chatbot_dev:
+    container_name: chatbot_dev
+    image: chatbot_dev:1.0.0
+    build:
+      context: .
+      target: development
+    command: npm run start:dev
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - chatbot-network
+    depends_on:
+      chatbot_mongodb:
+        condition: service_healthy
+    restart: unless-stopped
+    environment:
+      - DATABASE_URI=${DATABASE_URI}
+      - DATABASE_HOST=${DATABASE_HOST}
+      - DATABASE_PORT=${DATABASE_PORT}
+      - DATABASE_USERNAME=${DATABASE_USERNAME}
+      - DATABASE_PASSWORD=${DATABASE_PASSWORD}
+      - DATABASE_NAME=${DATABASE_NAME}
+      - PORT=${PORT}
+
+  chatbot_mongodb:
+    container_name: chatbot_mongodb_container
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${DATABASE_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${DATABASE_PASSWORD}
+    ports:
+      - "${DATABASE_PORT}:${DATABASE_PORT}"
+    expose:
+      - ${DATABASE_PORT}
+    volumes:
+      - ./mongo-data:/data/db # Mount data ra bên ngoài để tránh dữ liệu bị xóa khi remove container
+    networks:
+      - chatbot-network
+    healthcheck:
+      # Kiểm tra xem MongoDB đã sẵn sàng nhận kết nối chưa
+      test: echo 'db.runCommand("ping").ok' | mongosh --quiet -u ${DATABASE_USERNAME} -p ${DATABASE_PASSWORD} --authenticationDatabase admin
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    restart: unless-stopped
+
+  chatbot_mongo_express:
+    container_name: chatbot_mongo_express
+    image: mongo-express:latest
+    environment:
+      ME_CONFIG_BASICAUTH_USERNAME: ${DATABASE_USERNAME}
+      ME_CONFIG_BASICAUTH_PASSWORD: ${DATABASE_PASSWORD}
+      ME_CONFIG_MONGODB_URL: mongodb://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@chatbot_mongodb:${DATABASE_PORT}/?authSource=admin
+    ports:
+      - "8002:8081"
+    networks:
+      - chatbot-network
+    depends_on:
+      chatbot_mongodb:
+        condition: service_healthy # chờ MongoDB sẵn sàng
+    restart: unless-stopped
+
+networks:
+  chatbot-network:
+    driver: bridge
