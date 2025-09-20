@@ -77,7 +77,7 @@ export class ChatService extends BaseAbstractService<Chat> {
   ) {
     try {
       const token = req.headers?.authorization?.split('Bearer ')[1];
-      if (!token || !req.user) {
+      if (!token || !reqUser.user) {
         return;
       }
       const userChatted = await this.chatRepository.findOneByCondition({

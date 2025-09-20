@@ -3,7 +3,7 @@ import { ChatService } from './chat.service';
 import { QuestionDto } from '@modules/chat/dto/question.dto';
 import { Request } from 'express';
 import { JwtAccessTokenGuard } from '@modules/auth/guards/jwt-access-token.guard';
-import { Public } from '../../decorators/auth.decorators';
+// import { Public } from '../../decorators/auth.decorators';
 import { RequestWithUser } from '@modules/shared/types/request.type';
 
 @Controller('chat')
@@ -12,7 +12,7 @@ export class ChatController {
   constructor(private readonly chatService: ChatService) {}
 
   @Post('question')
-  @Public()
+  // @Public()
   question(
     @Body() body: QuestionDto,
     @Req() req: Request,
